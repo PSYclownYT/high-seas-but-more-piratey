@@ -21,7 +21,7 @@ export default function Blessed() {
         onMouseLeave={() => setOpen(false)}
       >
         <div className="text-center mb-5">
-          <Pill msg="🏴‍☠️ You have the pirate's blessing" color="yellow" />
+          <Pill msg="🏴‍☠️ The Blessing of Davy Jones has been bestowed upon you." color="yellow" />
         </div>
       </PopoverTrigger>
       <PopoverContent className="text-sm">
